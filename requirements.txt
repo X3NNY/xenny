@@ -1,0 +1,3 @@
+pycryptodome
+gmpy2
+ecdsa

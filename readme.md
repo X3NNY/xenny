@@ -1,1 +1,3 @@
-some docs here.
+# Xenny
+
+* Xenny's tool
