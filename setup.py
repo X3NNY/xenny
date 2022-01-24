@@ -1,7 +1,7 @@
 from os import path as os_path
 from setuptools import find_packages, setup
 
-# import xenny
+import xenny
 
 this_directory = os_path.abspath(os_path.dirname(__file__))
 
@@ -19,7 +19,7 @@ def read_requirements(filename):
 setup(
     name='xenny',  # 包名
     python_requires='>=3.8.0', # python环境
-    version='1.1',#xenny.__version__, # 包的版本
+    version=xenny.__version__, # 包的版本
     description="Xenny's tool",  # 包简介，显示在PyPI上
     long_description=read_file('README.md'), # 读取的Readme文档内容
     long_description_content_type="text/markdown",  # 指定包文档格式为markdown
